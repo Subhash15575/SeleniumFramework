@@ -19,7 +19,7 @@ public class TestCase1 extends StepGroup {
 	o.login();
 	Thread.sleep(2000);
 	}
-	/*
+	
 	@Test(priority=1)
 	public void tc2() throws InterruptedException
 	{
@@ -56,6 +56,6 @@ public class TestCase1 extends StepGroup {
 	o.login();
 	Thread.sleep(2000);
 	}
-	*/
+
 
 }

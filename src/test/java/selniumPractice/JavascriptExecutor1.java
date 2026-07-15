@@ -26,7 +26,7 @@ public class JavascriptExecutor1 {
 		
 		//js.executeScript("window.scrollBy(0,500)");
 		
-		
+		/*
 		WebElement ele=driver.findElement(By.xpath("//a[text()='JMeter']"));
 		Point p=ele.getLocation();
 		int x=p.getX();
@@ -34,10 +34,16 @@ public class JavascriptExecutor1 {
 		System.out.println(x);
 		System.out.println(y);
 		
-		js.executeScript("window.scrollBy("+x+","+y+")");
+		//js.executeScript("window.scrollBy("+x+","+y+")");
 		Thread.sleep(2000);
 		//ele.click();
-		js.executeScript("arguments[0].click();",ele);
+		//js.executeScript("arguments[0].click();",ele);
+		/// 
+		 */
+		
+		WebElement ele=driver.findElement(By.xpath("//legend[text()='Suggession Class Example']"));
+		Thread.sleep(2000);
+		js.executeScript("document.getElementById('ele').style.backgroundColor='red';");
 		
 
 	}

@@ -13,8 +13,8 @@ public class TestCase2 extends StepGroup {
 	public void ifo() throws InterruptedException
 	{
 		
-		System.out.println("this is pass");
-		/*
+		
+		
 		OrangeHRMLogin o=new OrangeHRMLogin(driver);
 		Thread.sleep(2000);
 		o.userName("Admin");
@@ -32,6 +32,6 @@ public class TestCase2 extends StepGroup {
 	 Thread.sleep(2000);
 	 m.nationalityOption();
 	 Thread.sleep(2000);
-	 */
+	 
 	}
 }
